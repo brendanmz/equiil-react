@@ -4,26 +4,37 @@ import theme from '../styles/theme'
 
 const MusicWrapper = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 10rem;
   z-index: 10;
 `
 
+const ComingSoon = styled.h1`
+  font-size: 2.5rem;
+  font-family: ${theme.font.primary};
+  text-align: center;
+  z-index: 10;
+  color: ${theme.colors.primaryLight};
+  @media (min-width: ${theme.breakpoints.mobile}px) {
+    font-size: 3.5rem;
+    margin-top: 25rem;
+    opacity: 0.6;
+    color: ${theme.colors.background};
+  }
+`
+
 const Music = () => {
   return (
     <MusicWrapper>
-      <h1
+      <ComingSoon
         style={{
-          fontSize: '2.5rem',
-          color: `${theme.colors.background}`,
-          opacity: 0.5,
-          textAlign: 'center',
-          zIndex: 10,
+          fontWeight: `${theme.fontWeight.bold}`,
         }}
       >
         Coming soon...
-      </h1>
+      </ComingSoon>
     </MusicWrapper>
   )
 }

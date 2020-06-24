@@ -52,7 +52,7 @@ export const MailingListWrapper = styled.div`
     line-height: 32px;
     padding: 0 18px;
     display: inline-block;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     transition: all 0.23s ease-in-out 0s;
   }
   & > #mc_embed_signup .button:hover {

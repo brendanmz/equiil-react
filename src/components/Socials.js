@@ -6,13 +6,12 @@ const SocialLogo = styled.img`
   z-index: 10;
   width: 2rem;
   padding: 0 0.5rem;
-
   filter: brightness(0) saturate(100%) invert(77%) sepia(96%) saturate(654%)
     hue-rotate(318deg) brightness(106%) contrast(101%);
+  transition: all 0.23s ease-in-out 0s;
 
   &:hover {
-    filter: brightness(0) saturate(100%) invert(74%) sepia(21%) saturate(6744%)
-      hue-rotate(332deg) brightness(103%) contrast(101%);
+    opacity: 60%;
   }
 `
 

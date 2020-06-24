@@ -1,21 +1,25 @@
-export const theme = {
+const theme = {
   colors: {
     lightOrange: '#FFC154',
     darkOrange: '#FF8E3C',
     background: '#2A2A2A',
+    primaryLight: '#d1cfcd',
   },
   fontWeight: {
-    light: 200,
+    light: 300,
     regular: 400,
-    medium: 500,
+    medium: 600,
     bold: 700,
+  },
+  font: {
+    primary: "'Comfortaa', cursive",
   },
   breakpoints: {
     mobile: 786,
     desktop: 1080,
   },
   elementSize: {
-    footer: '10rem',
+    footer: '12rem',
   },
 }
 
