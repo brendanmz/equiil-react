@@ -16,6 +16,7 @@ const SocialLogo = styled.img`
 `
 
 const SocialsList = styled.ul`
+  z-index: 10;
   display: flex;
   margin: 1rem;
   &.headerSocials {
